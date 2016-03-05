@@ -1,7 +1,5 @@
 #pragma once
-class main
-{
-public:
-	int main(int argc, char *argv[])
-};
+#ifndef main.h
+int main(int argc, char *argv[]);
 
+#endif main.h

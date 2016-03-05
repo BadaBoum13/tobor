@@ -1,8 +1,8 @@
-CC=g
+CC=gcc
 CFLAGS=-W -Wall -ansi -pedantic
 LDFLAGS=
 EXEC=tobor
-SRC= $(wildcard $(DIR)*.cpp)
+SRC= $(wildcard *.cpp)
 OBJ= $(SRC:.c=.o)
 
 all: $(EXEC)
