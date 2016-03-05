@@ -2,6 +2,6 @@
 class main
 {
 public:
-	main();
+	int main(int argc, char *argv[])
 };
 
